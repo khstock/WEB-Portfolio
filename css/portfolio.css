@@ -33,6 +33,10 @@ body {
   color: var(--primary-color);
 }
 
+.badge-primary {
+  background-color: var(--primary-dark-color);
+}
+
 /* Navigation */
 
 .masthead {
