@@ -20,122 +20,122 @@
     <header class="masthead mb-auto text-center">
       <div class="inner">
         <nav class="nav nav-masthead justify-content-center">
-          <a class="nav-link active" href="#">Home</a>
-          <a class="nav-link" href="#">Projects</a>
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </nav>
       </div>
     </header>
 
-    <main role="main" class="inner-cover">
+    <main role="main" class="inner-cover" id="home">
       <h0>karim stock</h0>
-      <p class="lead">Informatik Master Student, Hochschule Kaiserslautern.</p>
+      <p class="lead">vr / unity / web / student</p>
       <p class="lead">
       </p>
     </main>
 
     <div class="jumbotron jumbotron-fluid rounded">
       <div class="container">
-        <h1 class="display-4"></h1>
-        <p class="lead">I'm a computer science student at <b>University of Applied Sciences Kaiserslautern</b>, Germany. Currently working towards my master's</p>
-        <hr class="my-4">
-        <button type="button" class="btn btn-light">
-          <svg id="i-download" viewBox="0 0 32 32" width="22" height="22" color=#503D3F fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <p class="lead">I'm a 23-year-old computer science student at <b>University of Applied Sciences Kaiserslautern</b>, Germany. Currently working towards my master's.</p>
+        <p class="lead float-left">Very enthusiastic about VR. <br/></p>
+
+        <button type="button" class="btn btn-outline-light float-sm-right" onclick="window.open('static/karim_stock_cv.pdf')">
+          <svg id="i-download" viewBox="0 0 32 32" width="22" height="22" color=#ffffff fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
               <path d="M9 22 C0 23 1 12 9 13 6 2 23 2 22 10 32 7 32 23 23 22 M11 26 L16 30 21 26 M16 16 L16 30" />
           </svg>
           Download CV</button>
-
-        <button type="button" class="btn btn-light">
-          <svg id="i-mail" viewBox="0 0 32 32" width="22" height="22" color=#503D3F fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-              <path d="M2 26 L30 26 30 6 2 6 Z M2 6 L16 16 30 6" />
-          </svg>
-          Mail</button>
-
-        <button type="button" class="btn btn-light">
-            <svg id="i-github" viewBox="0 0 64 64" width="22" height="22" color=#503D3F>
-                <path stroke-width="0" fill="currentColor" d="M32 0 C14 0 0 14 0 32 0 53 19 62 22 62 24 62 24 61 24 60 L24 55 C17 57 14 53 13 50 13 50 13 49 11 47 10 46 6 44 10 44 13 44 15 48 15 48 18 52 22 51 24 50 24 48 26 46 26 46 18 45 12 42 12 31 12 27 13 24 15 22 15 22 13 18 15 13 15 13 20 13 24 17 27 15 37 15 40 17 44 13 49 13 49 13 51 20 49 22 49 22 51 24 52 27 52 31 52 42 45 45 38 46 39 47 40 49 40 52 L40 60 C40 61 40 62 42 62 45 62 64 53 64 32 64 14 50 0 32 0 Z" />
-            </svg>
-            GitHub</button>
-
+        <p class="lead"><br/></p>
+        <hr class="my-4">
+        <div class="contact bg-white rounded shadow">
+          <div class="row">
+            <div class="col-md-4">
+              <p><b>Current location</b>: <br/>Bruchsal, Germany</p>
+            </div>
+            <div class="col-md-5">
+              <p><b>Mail</b>: <br/><a href="mailto:karim.h.stock@gmail.com">karim.h.stock@gmail.com</a></p>
+            </div>
+            <div class="col-md-3">
+              <p><b>GitHub</b>: <br/><a href="https://github.com/khstock" target="_blank">khstock</a></p>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-6">
+              <p><b>Education</b>: <br/>B.Sc. Media Informatics, University of Applied Sciences Kaiserslautern</p>
+            </div>
+            <div class="col-md-6">
+              <p><b>Skills</b>: <br/>B.Sc. Media Informatics, University of Applied Sciences Kaiserslautern</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="text-center">
-      <h4>Projects</h4>
+      <h4 id="projects">Projects</h4>
       <h4>---</h4>
     </div>
 
-    <div class="project shadow mb-5 rounded bg-white">
-      <div class="row">
-        <div class="col-sm-12 col-md-4">
-          <div class="inner-project rounded d-none d-md-block" style="background-image:url( 'src/dillinger.jpg' ); background-size: cover">
-            <img src="src/overlay3.svg " height=220px class="float-right " alt="SVG in einem image Tag ">
+    <div class="project shadow mb-5 rounded bg-white ">
+      <div class="row ">
+        <div class="col-sm-12 col-md-4 ">
+          <div class="inner-project rounded d-none d-md-block " style="background-image:url( 'src/dillinger.jpg' ); background-size: cover ">
+            <img src="src/overlay.svg " height=220px class="float-right " alt="SVG in einem image Tag ">
           </div>
         </div>
         <div class="col-sm-0 col-md-8 ">
           <div class="inner-project p-3 ">
             <div class="row ">
               <div class="col-10 ">
-                <h4>Visualisierung Industrieprozesse</h4>
+                <h4>Visualizing industrial processes</h4>
+              </div>
+              <div class="col-2 ">
+                <p class="text-right ">July 2018</p>
+              </div>
+            </div>
+            <p>Visualization of various industrial processes in steel production. Project was developed in collaboration with <b>Dillinger Hütte</b>, demonstrating a virtual copy of their ironworks.</p>
+            <span class="badge badge-pill badge-dark ">Unity</span>
+            <span class="badge badge-pill badge-dark ">3D</span>
+            <span class="badge badge-pill badge-dark ">Desktop</span>
+            <span class="badge badge-pill badge-dark ">VR</span>
+            <span class="badge badge-pill badge-dark ">C#</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project shadow mb-5 rounded bg-white ">
+      <div class="row ">
+        <div class="col-sm-12 col-md-4 ">
+          <div class="inner-project rounded d-none d-md-block " style="background-image:url( 'src/zwinder.jpg' ); background-size: cover ">
+            <img src="src/overlay.svg " height=220px class="float-right " alt="SVG in einem image Tag ">
+          </div>
+        </div>
+        <div class="col-sm-0 col-md-8 ">
+          <div class="inner-project p-3 ">
+            <div class="row ">
+              <div class="col-10 ">
+                <h4>Android dating app clone</h4>
               </div>
               <div class="col-2 ">
                 <p class="text-right ">June 2018</p>
               </div>
             </div>
-            <p>In Zusammenarbeit mit <b>Dillinger Hütte</b> wurde als Hochschulprojekt ein digitales Abbild der Vorgänge innerhalb eines Walzwerkes entwickelt. Targetplatform: VR und Desktop.</p>
-            <span class="badge badge-pill badge-dark">Unity</span>
-            <span class="badge badge-pill badge-dark">3D</span>
-            <span class="badge badge-pill badge-dark">Desktop</span>
-            <span class="badge badge-pill badge-dark">VR</span>
-            <span class="badge badge-pill badge-dark">C#</span>
-
-            <button type="button" class="btn btn-light btn-sm float-right" onclick="location.href = 'https://github.com/khstock/zwinder-app';">
-                <svg id="i-github" viewBox="0 0 64 64" width="18" height="19">
-                    <path stroke-width="0" fill="currentColor" d="M32 0 C14 0 0 14 0 32 0 53 19 62 22 62 24 62 24 61 24 60 L24 55 C17 57 14 53 13 50 13 50 13 49 11 47 10 46 6 44 10 44 13 44 15 48 15 48 18 52 22 51 24 50 24 48 26 46 26 46 18 45 12 42 12 31 12 27 13 24 15 22 15 22 13 18 15 13 15 13 20 13 24 17 27 15 37 15 40 17 44 13 49 13 49 13 51 20 49 22 49 22 51 24 52 27 52 31 52 42 45 45 38 46 39 47 40 49 40 52 L40 60 C40 61 40 62 42 62 45 62 64 53 64 32 64 14 50 0 32 0 Z" />
-                </svg>
-                Project Source</button>
-
-            <button type="button" class="btn btn-light btn-sm float-right" onclick="location.href = 'https://youtu.be/eBUVMyqWFP0';">
-                  <svg id="i-external" viewBox="0 0 32 32" width="18" height="18" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                    <path d="M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18" />
-                  </svg>
-                    Demo</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="project shadow mb-5 rounded bg-white">
-      <div class="row">
-        <div class="col-sm-12 col-md-4">
-          <div class="inner-project rounded d-none d-md-block" style="background-image:url( 'src/zwinder.jpg' ); background-size: cover">
-            <img src="src/overlay3.svg " height=220px class="float-right " alt="SVG in einem image Tag ">
-          </div>
-        </div>
-        <div class="col-sm-0 col-md-8 ">
-          <div class="inner-project p-3 ">
-            <div class="row ">
-              <div class="col-10 ">
-                <h4>Android Dating-App Klon</h4>
-              </div>
-              <div class="col-2 ">
-                <p class="text-right ">June 2018</p>
-              </div>
-            </div>
-            <p>In Zusammenarbeit mit <b>Dillinger Hütte</b> wurde als Hochschulprojekt ein digitales Abbild der Vorgänge innerhalb eines Walzwerkes entwickelt. Targetplatform: VR und Desktop.</p>
+            <p>Android dating app using NoSQL Firebase Queries. UI and card swipe effect highly influenced by Tinder. Developed using Android-Studio, completely written in Java.</p>
             <span class="badge badge-pill badge-dark ">Android</span>
             <span class="badge badge-pill badge-dark ">2D</span>
             <span class="badge badge-pill badge-dark ">Java</span>
 
-            <button type="button" class="btn btn-light btn-sm float-right" onclick="location.href = 'https://github.com/khstock/zwinder-app';">
-                <svg id="i-github" viewBox="0 0 64 64" width="18" height="19">
-                    <path stroke-width="0" fill="currentColor" d="M32 0 C14 0 0 14 0 32 0 53 19 62 22 62 24 62 24 61 24 60 L24 55 C17 57 14 53 13 50 13 50 13 49 11 47 10 46 6 44 10 44 13 44 15 48 15 48 18 52 22 51 24 50 24 48 26 46 26 46 18 45 12 42 12 31 12 27 13 24 15 22 15 22 13 18 15 13 15 13 20 13 24 17 27 15 37 15 40 17 44 13 49 13 49 13 51 20 49 22 49 22 51 24 52 27 52 31 52 42 45 45 38 46 39 47 40 49 40 52 L40 60 C40 61 40 62 42 62 45 62 64 53 64 32 64 14 50 0 32 0 Z" />
+            <button type="button " class="btn btn-light btn-sm float-right " onclick="location.href='https://github.com/khstock/zwinder-app' ; ">
+                <svg id="i-github " viewBox="0 0 64 64 " width="18 " height="19 ">
+                    <path stroke-width="0 " fill="currentColor " d="M32 0 C14 0 0 14 0 32 0 53 19 62 22 62 24 62 24 61 24 60 L24 55 C17 57 14 53 13 50 13 50 13 49 11 47 10 46 6 44 10 44 13 44 15 48 15 48 18 52 22 51 24 50 24 48 26 46 26 46 18 45 12
+          42 12 31 12 27 13 24 15 22 15 22 13 18 15 13 15 13 20 13 24 17 27 15 37 15 40 17 44 13 49 13 49 13 51 20 49 22 49 22 51 24 52 27 52 31 52 42 45 45 38 46 39 47 40 49 40 52 L40 60 C40 61 40 62 42 62 45 62 64 53 64 32 64 14 50 0 32 0 Z " />
                 </svg>
                 Project Source</button>
 
-            <button type="button" class="btn btn-light btn-sm float-right" onclick="location.href = 'https://youtu.be/eBUVMyqWFP0';">
-                  <svg id="i-external" viewBox="0 0 32 32" width="18" height="18" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                    <path d="M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18" />
+            <button type="button " class="btn btn-light btn-sm float-right " onclick="location.href='https://youtu.be/eBUVMyqWFP0' ; ">
+                  <svg id="i-external " viewBox="0 0 32 32 " width="18 " height="18 " fill="none " stroke="currentcolor " stroke-linecap="round " stroke-linejoin="round " stroke-width="2 ">
+                    <path d="M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18 " />
                   </svg>
                     Demo</button>
           </div>
@@ -143,87 +143,106 @@
       </div>
     </div>
 
-    <div class="project shadow mb-5 rounded bg-white">
-      <div class="row">
-        <div class="col-sm-12 col-md-4">
-          <div class="inner-project rounded d-none d-md-block" style="background-image:url( 'src/dashboard.jpg' ); background-size: cover">
-            <img src="src/overlay3.svg " height=220px class="float-right " alt="SVG in einem image Tag ">
+    <div class="project shadow mb-5 rounded bg-white ">
+      <div class="row ">
+        <div class="col-sm-12 col-md-4 ">
+          <div class="inner-project rounded d-none d-md-block " style="background-image:url( 'src/dashboard.jpg' ); background-size: cover ">
+            <img src="src/overlay.svg " height=220px class="float-right " alt="SVG in einem image Tag ">
           </div>
         </div>
         <div class="col-sm-0 col-md-8 ">
           <div class="inner-project p-3 ">
             <div class="row ">
               <div class="col-10 ">
-                <h4>Car Dashboard/Mittelkonsole</h4>
+                <h4>Car Dashboard / Center console</h4>
               </div>
               <div class="col-2 ">
                 <p class="text-right ">Jan 2018</p>
               </div>
             </div>
-            <p>In Zusammenarbeit mit <b>Dillinger Hütte</b> wurde als Hochschulprojekt ein digitales Abbild der Vorgänge innerhalb eines Walzwerkes entwickelt. Targetplatform: VR und Desktop.</p>
-            <span class="badge badge-pill badge-dark ">Android</span>
+            <p>UX design and implementation of a digital dashboard and center console for an existing driving simulator located at <b>University of Applied Sciences Kaiserslautern</b>.</p>
+            <span class="badge badge-pill badge-dark ">Unity</span>
             <span class="badge badge-pill badge-dark ">2D</span>
-            <span class="badge badge-pill badge-dark ">Java</span>
-
-            <button type="button" class="btn btn-light btn-sm float-right" onclick="location.href = 'https://github.com/khstock/zwinder-app';">
-                <svg id="i-github" viewBox="0 0 64 64" width="18" height="19">
-                    <path stroke-width="0" fill="currentColor" d="M32 0 C14 0 0 14 0 32 0 53 19 62 22 62 24 62 24 61 24 60 L24 55 C17 57 14 53 13 50 13 50 13 49 11 47 10 46 6 44 10 44 13 44 15 48 15 48 18 52 22 51 24 50 24 48 26 46 26 46 18 45 12 42 12 31 12 27 13 24 15 22 15 22 13 18 15 13 15 13 20 13 24 17 27 15 37 15 40 17 44 13 49 13 49 13 51 20 49 22 49 22 51 24 52 27 52 31 52 42 45 45 38 46 39 47 40 49 40 52 L40 60 C40 61 40 62 42 62 45 62 64 53 64 32 64 14 50 0 32 0 Z" />
-                </svg>
-                Project Source</button>
-
-            <button type="button" class="btn btn-light btn-sm float-right" onclick="location.href = 'https://youtu.be/eBUVMyqWFP0';">
-                  <svg id="i-external" viewBox="0 0 32 32" width="18" height="18" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                    <path d="M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18" />
-                  </svg>
-                    Demo</button>
+            <span class="badge badge-pill badge-dark ">JSON</span>
+            <span class="badge badge-pill badge-dark ">SQL</span>
+            <span class="badge badge-pill badge-dark ">C#</span>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="project shadow mb-5 rounded bg-white">
-      <div class="row">
-        <div class="col-sm-12 col-md-4">
-          <div class="inner-project rounded d-none d-md-block" style="background-image:url( 'src/bachelor.jpg' ); background-size: cover">
-            <img src="src/overlay3.svg " height=220px class="float-right " alt="SVG in einem image Tag ">
+    <div class="project shadow mb-5 rounded bg-white ">
+      <div class="row ">
+        <div class="col-sm-12 col-md-4 ">
+          <div class="inner-project rounded d-none d-md-block " style="background-image:url( 'src/gondola.jpg' ); background-size: cover ">
+            <img src="src/overlay.svg " height=220px class="float-right " alt="SVG in einem image Tag ">
           </div>
         </div>
         <div class="col-sm-0 col-md-8 ">
           <div class="inner-project p-3 ">
             <div class="row ">
               <div class="col-10 ">
-                <h4>Bachelorarbeit: Strömungsvisualisierung</h4>
+                <h4>Gondola racing minigame</h4>
               </div>
               <div class="col-2 ">
-                <p class="text-right ">Jan 2018</p>
+                <p class="text-right ">July 2017</p>
               </div>
             </div>
-            <p>In Zusammenarbeit mit <b>Dillinger Hütte</b> wurde als Hochschulprojekt ein digitales Abbild der Vorgänge innerhalb eines Walzwerkes entwickelt. Targetplatform: VR und Desktop.</p>
-            <span class="badge badge-pill badge-dark ">Android</span>
-            <span class="badge badge-pill badge-dark ">2D</span>
-            <span class="badge badge-pill badge-dark ">Java</span>
+            <p>3 month University project that resulted in an endless running game using oars to move the gondola with while randomly generating powerups and obstacles on the track.</p>
+            <span class="badge badge-pill badge-dark ">Unity</span>
+            <span class="badge badge-pill badge-dark ">3D</span>
+            <span class="badge badge-pill badge-dark ">VR</span>
+            <span class="badge badge-pill badge-dark ">C# </span>
 
-            <button type="button" class="btn btn-light btn-sm float-right" onclick="location.href = 'https://github.com/khstock/zwinder-app';">
-                <svg id="i-github" viewBox="0 0 64 64" width="18" height="19">
-                    <path stroke-width="0" fill="currentColor" d="M32 0 C14 0 0 14 0 32 0 53 19 62 22 62 24 62 24 61 24 60 L24 55 C17 57 14 53 13 50 13 50 13 49 11 47 10 46 6 44 10 44 13 44 15 48 15 48 18 52 22 51 24 50 24 48 26 46 26 46 18 45 12 42 12 31 12 27 13 24 15 22 15 22 13 18 15 13 15 13 20 13 24 17 27 15 37 15 40 17 44 13 49 13 49 13 51 20 49 22 49 22 51 24 52 27 52 31 52 42 45 45 38 46 39 47 40 49 40 52 L40 60 C40 61 40 62 42 62 45 62 64 53 64 32 64 14 50 0 32 0 Z" />
-                </svg>
-                Project Source</button>
-
-            <button type="button" class="btn btn-light btn-sm float-right" onclick="location.href = 'https://youtu.be/H6mwCCYqlZo';">
-                  <svg id="i-external" viewBox="0 0 32 32" width="18" height="18" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                    <path d="M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18" />
+            <button type="button " class="btn btn-light btn-sm float-right " onclick="location.href='https://youtu.be/wzUj0rRv4vU' ; ">
+                  <svg id="i-external " viewBox="0 0 32 32 " width="18 " height="18 " fill="none " stroke="currentcolor " stroke-linecap="round " stroke-linejoin="round " stroke-width="2 ">
+                    <path d="M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18 " />
                   </svg>
-                    Demo</button>
+                    Demo Video</button>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="project shadow mb-5 rounded bg-white">
-      <div class="row">
-        <div class="col-sm-12 col-md-4">
-          <div class="inner-project rounded d-none d-md-block" style="background-image:url( 'src/classroomvr.jpg' ); background-size: cover">
-            <img src="src/overlay3.svg " height=220px class="float-right " alt="SVG in einem image Tag ">
+    <div class="project shadow mb-5 rounded bg-white ">
+      <div class="row ">
+        <div class="col-sm-12 col-md-4 ">
+          <div class="inner-project rounded d-none d-md-block " style="background-image:url( 'src/bachelor.jpg' ); background-size: cover ">
+            <img src="src/overlay.svg " height=220px class="float-right " alt="SVG in einem image Tag ">
+          </div>
+        </div>
+        <div class="col-sm-0 col-md-8 ">
+          <div class="inner-project p-3 ">
+            <div class="row ">
+              <div class="col-10 ">
+                <h4>Immersive flow visualization</h4>
+              </div>
+              <div class="col-2 ">
+                <p class="text-right ">Dec 2016</p>
+              </div>
+            </div>
+            <p>Bachelor’s thesis on flow visualization in VR using Unity. Application prototype that displays existing flow data in 3D and enables interaction with Unity’s particle system.</p>
+            <span class="badge badge-pill badge-dark ">Unity</span>
+            <span class="badge badge-pill badge-dark ">3D</span>
+            <span class="badge badge-pill badge-dark ">VR</span>
+            <span class="badge badge-pill badge-dark ">C#</span>
+
+
+            <button type="button " class="btn btn-light btn-sm float-right " onclick="window.open('static/karim_stock_flow_visualization_bachelor_thesis.pdf')">
+              <svg id="i-download " viewBox="0 0 32 32 " width="22 " height="22 " fill="none " stroke="currentcolor " stroke-linecap="round " stroke-linejoin="round " stroke-width="2 ">
+                  <path d="M9 22 C0 23 1 12 9 13 6 2 23 2 22 10 32 7 32 23 23 22 M11 26 L16 30 21 26 M16 16 L16 30 " />
+                </svg>
+                Documentation</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project shadow mb-5 rounded bg-white ">
+      <div class="row ">
+        <div class="col-sm-12 col-md-4 ">
+          <div class="inner-project rounded d-none d-md-block " style="background-image:url( 'src/classroomvr.jpg' ); background-size: cover ">
+            <img src="src/overlay.svg " height=220px class="float-right " alt="SVG in einem image Tag ">
           </div>
         </div>
         <div class="col-sm-0 col-md-8 ">
@@ -236,55 +255,26 @@
                 <p class="text-right ">Dec 2015</p>
               </div>
             </div>
-            <p>In Zusammenarbeit mit <b>Dillinger Hütte</b> wurde als Hochschulprojekt ein digitales Abbild der Vorgänge innerhalb eines Walzwerkes entwickelt. Targetplatform: VR und Desktop.</p>
-            <span class="badge badge-pill badge-dark ">Android</span>
-            <span class="badge badge-pill badge-dark ">2D</span>
-            <span class="badge badge-pill badge-dark ">Java</span>
+            <p>Networked multiplayer application focusing on customizing and giving presentations remotely. Allowing users to add 3D models, particle systems and other Unity objects to their slides.</p>
+            <span class="badge badge-pill badge-dark ">Unity</span>
+            <span class="badge badge-pill badge-dark ">3D</span>
+            <span class="badge badge-pill badge-dark ">Desktop</span>
+            <span class="badge badge-pill badge-dark ">VR</span>
+            <span class="badge badge-pill badge-dark ">multiplayer</span>
+            <span class="badge badge-pill badge-dark ">C# </span>
 
-            <button type="button" class="btn btn-light btn-sm float-right" onclick="location.href = 'https://github.com/khstock/zwinder-app';">
-                <svg id="i-github" viewBox="0 0 64 64" width="18" height="19">
-                    <path stroke-width="0" fill="currentColor" d="M32 0 C14 0 0 14 0 32 0 53 19 62 22 62 24 62 24 61 24 60 L24 55 C17 57 14 53 13 50 13 50 13 49 11 47 10 46 6 44 10 44 13 44 15 48 15 48 18 52 22 51 24 50 24 48 26 46 26 46 18 45 12 42 12 31 12 27 13 24 15 22 15 22 13 18 15 13 15 13 20 13 24 17 27 15 37 15 40 17 44 13 49 13 49 13 51 20 49 22 49 22 51 24 52 27 52 31 52 42 45 45 38 46 39 47 40 49 40 52 L40 60 C40 61 40 62 42 62 45 62 64 53 64 32 64 14 50 0 32 0 Z" />
-                </svg>
-                Project Source</button>
-
-            <button type="button" class="btn btn-light btn-sm float-right" onclick="location.href = 'https://youtu.be/uKmA7DxY9tE';">
-                  <svg id="i-external" viewBox="0 0 32 32" width="18" height="18" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                    <path d="M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18" />
+            <button type="button " class="btn btn-light btn-sm float-right " onclick="location.href='https://youtu.be/uKmA7DxY9tE' ; ">
+                  <svg id="i-external " viewBox="0 0 32 32 " width="18 " height="18 " fill="none " stroke="currentcolor " stroke-linecap="round " stroke-linejoin="round " stroke-width="2 ">
+                    <path d="M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18 " />
                   </svg>
-                    Demo</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="project shadow mb-5 rounded bg-white ">
-      <div class="row ">
-        <div class="col-4 rounded ">
-          <div class="inner-project rounded " width="220px ">
-            <img src="src/web2.jpg " height=220px fill=#ffffff class="float-right rounded " alt="SVG in einem image Tag ">
-          </div>
-        </div>
-        <div class="col-8 ">
-          <div class="inner-project p-3 ">
-            <div class="row ">
-              <div class="col-10 ">
-                <h4>Android Dating-App Klon</h4>
-              </div>
-              <div class="col-2 ">
-                <p class="text-right ">June 2018</p>
-              </div>
-            </div>
-            <p>In Zusammenarbeit mit <b>Dillinger Hütte</b> wurde als Hochschulprojekt ein digitales Abbild der Vorgänge innerhalb eines Walzwerkes entwickelt. Targetplatform: VR und Desktop.</p>
-            <span class="badge badge-pill badge-dark ">Android</span>
-            <span class="badge badge-pill badge-dark ">2D</span>
-            <span class="badge badge-pill badge-dark ">Java</span>
+                    Demo Video</button>
           </div>
         </div>
       </div>
     </div>
 
     <div class="text-center ">
-      <h4>Contact</h4>
+      <h4 id="contact">Contact</h4>
       <h4>---</h4>
       <a class="float left " href="https://github.com/khstock ">GitHub</a> -
       <a class="float left " href="mailto:karim.h.stock@gmail.com ">Mail</a>
