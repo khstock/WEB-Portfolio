@@ -1,0 +1,167 @@
+/*
+ * Globals
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+/* Colors */
+
+:root {
+  --primary-color: #52FFD8;
+  --accent-color: #4DFFF3;
+  --primary-dark-color: #539987;
+  --dark-accent-color: #615756;
+  --dark-color: #503D3F;
+  --old-primary: #495178;
+  --old-bg: #f6f9fc;
+}
+
+/* Links */
+
+a, a:focus, a:hover {
+  color: var(--primary-color);
+}
+
+/* Base structure */
+
+html, body {
+  background-color: var(--dark-color);
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--primary-color);
+}
+
+/* Navigation */
+
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover, .nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link+.nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+/* Cover */
+
+.cover-container {
+  max-width: 48em;
+  z-index: 1;
+}
+
+.cover {
+  margin-top: 4em;
+  width: 100%;
+}
+
+h0, .h0 {
+  font-family: 'Montserrat';
+  font-size: 4em;
+}
+
+/* Project */
+
+.project {
+  background-color: var(--old-bg);
+  color: var(--primary-dark-color);
+}
+
+.inner-project {
+  float: left;
+}
+
+.btn-light {
+  background-color: #EEEEEE;
+}
+
+/* Particle.js */
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--dark-color);
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  color: #fff;
+  background: linear-gradient(-45deg, #615756, #503D3F, #23D5AB);
+  background-size: 700% 700%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
