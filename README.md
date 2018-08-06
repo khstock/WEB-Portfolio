@@ -1,5 +1,5 @@
 # WEB-Portfolio
-As I'm finishing my computer-science master's and looking for job it's time to update [my portfolio (khstock.de).](http://khstock.de/)
+As I'm finishing my computer-science master's and looking for jobs it's time to update [my portfolio (khstock.de).](http://khstock.de/)
 And this time it's open-source!
 
 ### Preview 
